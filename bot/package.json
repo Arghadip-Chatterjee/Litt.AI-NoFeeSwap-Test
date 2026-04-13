@@ -1,0 +1,26 @@
+{
+  "name": "bot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "ts-node src/index.ts",
+    "build": "tsc",
+    "dev":   "ts-node --watch src/index.ts"
+  },
+  "dependencies": {
+    "ethers": "^6.16.0",
+    "dotenv": "^17.4.1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "@types/node": "^25.5.2",
+    "dotenv": "^17.4.1",
+    "ethers": "^6.16.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^6.0.2"
+  }
+}
